@@ -42,7 +42,7 @@ public class SignInActivity extends AppCompatActivity {
                     if (username.equals("linhquanviet") && password.equals("123123@")) {
                         // Nếu đúng, chuyển sang màn hình Home
                         Toast.makeText(SignInActivity.this, "Login thành công!", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(SignInActivity.this, HomeActivity.class);
+                        Intent intent = new Intent(SignInActivity.this, MainActivity.class);
                         startActivity(intent);
                         finish();
                     } else {
